@@ -24,12 +24,9 @@
 - [About](#about)
 - [Demo / Working](#demo)
 - [How it works](#working)
-- [Usage](#usage)
 - [Getting Started](#getting_started)
-- [Deploying your own bot](#deployment)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [Usage](#usage)
+- [Add Command/Feature](#add_command)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -118,7 +115,7 @@ Send bot command from another whatsapp number to your bot number message.
 
 <img height=500 src="./asset//example-feature.jpg" alt="Banner Logo"></a>
 
-## ⛏️ Add Commands/Feature <a name = "built_using"></a>
+## ⛏️ Add Commands/Feature <a name = "add_command"></a>
 
 Create a new file in `src/commands/{category}/`
 
