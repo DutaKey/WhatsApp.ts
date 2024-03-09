@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp.ts",
+  "version": "1.0.0",
+  "description": "Whatsapp Handler Client Using Typescript",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "cfonts": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.2.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "start": "node ./dist/index.js",
+    "start:build": "tsc --build && node ./dist/index.js"
+  },
+  "author": "DutaKey",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
